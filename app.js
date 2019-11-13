@@ -1,6 +1,7 @@
 // モジュールの読み込み
 var express = require('express'),
-    app = express();
+    app = express(),
+    settings = require('./settings');
 
 // routing
 app.get('/', function(req, res) {
@@ -17,5 +18,5 @@ app.get('/users/:name?', function(req, res) {
     }
 });
 
-app.listen(3000);
+app.listen(settings.port);
 console.log("Server Starting...");
