@@ -1,0 +1,19 @@
+{
+  "name": "somethinglistapp",
+  "version": "1.0.0",
+  "description": "このレポジトリ * 使用目的：APIを自作し、何かのリストを取得するWebアプリケーション * 要件     1. xxxのリストを取得し、Webに表示する     2. 表示したリストを検索し、対象のもののみを表示する * 参考：https://qiita.com/naganao/items/79ca63aa77916fe3bf85 * 問題管理：Githubのissue * ブランチ：masterのみ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamimi01/SomethingListApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kamimi01/SomethingListApp/issues"
+  },
+  "homepage": "https://github.com/kamimi01/SomethingListApp#readme"
+}
