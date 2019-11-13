@@ -18,5 +18,5 @@ app.get('/users/:name?', function(req, res) {
     }
 });
 
-app.listen(settings.port);
+app.listen(settings.port, settings.host);
 console.log("Server Starting...");
