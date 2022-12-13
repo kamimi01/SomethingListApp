@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/kamimi01/SomethingListApp#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "mongodb": "^3.3.4"
   }
 }
